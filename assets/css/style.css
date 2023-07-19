@@ -453,7 +453,7 @@ a {
 
 .courses-info {
   width: 325px;
-  height: 195px;
+  /* height: 195px; */
   padding: 18px 0 29px 25px;
   border-radius: 8px;
   background: #fff;
@@ -506,4 +506,27 @@ a {
   height: 6px;
   border-radius: 50%;
   background: var(--primary-color);
+}
+
+/********** CountDown **********/
+.countdown {
+  margin-top: 265px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.countdown .highlight-num {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.countdown .desc {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
