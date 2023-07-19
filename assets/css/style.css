@@ -45,6 +45,13 @@ a {
   text-decoration: none;
 }
 
+.small-info {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
 /********** Fixed header **********/
 .header .body {
   display: flex;
@@ -135,13 +142,6 @@ a {
 /* hero left */
 .hero .hero-news {
   width: 39%;
-}
-
-.hero-news .info {
-  color: #767e7e;
-  font-size: 1.4rem;
-  font-weight: 400;
-  margin-bottom: 18px;
 }
 
 .hero-news h1.heading {
@@ -326,4 +326,70 @@ a {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+}
+
+/********** Features **********/
+.feature {
+  margin-top: 130px;
+}
+
+.feature .main-content {
+  /* min-width: 1024px;
+  width: 87%; */
+  /* right: auto; */
+}
+
+.feature .texts {
+  margin-bottom: 80px;
+}
+
+.feature .texts .heading {
+  width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+  margin-bottom: 18px;
+}
+
+.feature .texts p.desc {
+  width: 530px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.feature-list {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 200px;
+}
+
+.feature-item .icon {
+  margin-bottom: 26px;
+}
+
+.feature-item .info {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.feature-item .desc {
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69;
+}
+
+.feature-item:first-child {
+  width: 16%;
+  max-width: 168px;
+}
+
+.feature-item {
+  width: 22%;
+  max-width: 200px;
 }
