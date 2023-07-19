@@ -530,3 +530,136 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
 }
+
+/********** Comments **********/
+.comments {
+  margin-top: 264px;
+}
+
+.comments .body {
+  display: flex;
+}
+
+.comments-text {
+  margin: 37px 0;
+}
+
+.comments-text .quote {
+  width: 36px;
+  height: 29px;
+  margin-bottom: 27px;
+}
+
+.comments-text .comment-info {
+  max-width: 380px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 33px;
+}
+
+.comments-text .owner-comment {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.comments-text strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.more-comments {
+  margin-top: 52px;
+  display: flex;
+  gap: 30px;
+}
+
+.more-comments .click-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-comments .click-icon:first-child img {
+  transform: rotate(180deg);
+}
+
+/* comment right */
+.comments-img {
+  margin-left: 72px;
+  /* background: #1ebfc1; */
+  width: 58%;
+}
+
+.comments-img .images {
+  position: relative;
+  background: ;
+}
+
+/* main image */
+.comments-img .images .image-main {
+  position: absolute;
+  top: 120px;
+  right: 180px;
+}
+.comments-img .images .image-main img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* group 1 images */
+.comments-img .images .image-group1 img:first-child {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.comments-img .images .image-group1 img:last-child {
+  position: absolute;
+  top: 0px;
+  left: 70px;
+}
+
+.comments-img .images .image-group1 img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* group 2 images */
+.comments-img .images .image-group2 img {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comments-img .images .image-group2 img:first-child {
+  position: absolute;
+  top: 276px;
+  left: 0px;
+}
+
+.comments-img .images .image-group2 img:nth-child(2) {
+  position: absolute;
+  left: 212px;
+  bottom: -470px;
+}
+
+.comments-img .images .image-group2 img:last-child {
+  position: absolute;
+  right: 25px;
+  bottom: -456px;
+}
+
+/********** CTA Contact **********/
