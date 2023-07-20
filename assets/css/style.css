@@ -17,7 +17,7 @@ body {
 
 /********** Common css style **********/
 main {
-  height: 10000px;
+  /* height: 10000px; */
 }
 
 .main-content {
@@ -703,3 +703,49 @@ a {
 }
 
 /********** Footer **********/
+.footer {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.footer-row {
+  display: flex;
+  gap: 144px;
+}
+
+.footer-column .heading {
+  margin-bottom: 26px;
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer-column p.desc {
+  margin-bottom: 26px;
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 19px;
+}
+
+.footer-column p.desc:last-child {
+  margin-bottom: 0;
+}
+
+.footer-column .icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+  gap: 6px;
+}
+
+.copy-right {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.copy-right p {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
