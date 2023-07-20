@@ -58,6 +58,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-top: 52px;
+  /* background: var(--primary-color); */
 }
 
 .btn.btn-action {
@@ -559,10 +560,21 @@ a {
   margin-bottom: 33px;
 }
 
+.comments-text .owner-comment::before {
+  content: "";
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  display: inline-block;
+  margin-right: 4px;
+}
+
 .comments-text .owner-comment {
   color: #767e7e;
   font-size: 1.6rem;
   font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 .comments-text strong {
@@ -663,3 +675,31 @@ a {
 }
 
 /********** CTA Contact **********/
+.cta-contact {
+  margin-top: 130px;
+  background: #def6f5;
+}
+
+.cta-contact .body {
+  display: flex;
+  gap: 410px;
+  align-items: center;
+}
+
+.cta-contact .cta-info h2.headding {
+  margin-top: 76px;
+  max-width: 420px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.cta-contact .cta-info p.desc {
+  margin-top: 18px;
+  margin-bottom: 88px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/********** Footer **********/
